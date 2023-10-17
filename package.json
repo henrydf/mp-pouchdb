@@ -1,0 +1,27 @@
+{
+  "name": "@henrydf/mp-pouchdb",
+  "version": "1.0.0",
+  "description": "miniprogram version of pouchdb@8.0.1[in memory]",
+  "main": "dist/index.js",
+  "files": [
+    "dist/index.js",
+    "package.json",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "rollup -c rollup.config.mjs",
+    "prepublishOnly": "npm run build"
+  },
+  "author": "Henry",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "pouchdb": "^8.0.1",
+    "pouchdb-adapter-memory": "^8.0.1"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-json": "^6.0.1",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "rollup": "^4.1.4"
+  }
+}
