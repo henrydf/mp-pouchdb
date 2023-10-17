@@ -1,6 +1,6 @@
 {
   "name": "@henrydf/mp-pouchdb",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "miniprogram version of pouchdb@8.0.1[in memory]",
   "main": "dist/index.js",
   "files": [
